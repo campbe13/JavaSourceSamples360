@@ -6,3 +6,17 @@ assessments/
 *.log
 *~
 *.swp
+fromslides/S06/
+fromslides/S07-if/
+fromslides/S08-loops-while/
+fromslides/S09-methods/
+fromslides/S10-methods/
+fromslides/S11-loops-for-dowhile-nested/
+fromslides/S12-Arrays/
+fromslides/S13-Arrays/
+fromslides/S14-Random-Arrays/
+fromslides/S14-Useful-Arrays/
+fromslides/S15-2d-Arrays/
+fromslides/S16-OOP/
+fromslides/S17-OOP/
+fromslides/S99-switch/
