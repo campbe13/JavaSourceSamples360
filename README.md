@@ -6,7 +6,8 @@ The [fromslides/S01 through S17](fromslides/) directories correspond to
 the Slide decks for lecture slides which are available on moodle. 
 
 You can read the files directly from the git server interface,  you can copy them individually, 
-use the raw format if you do so. Or you can download everything, on the main page there is a button to download as a zip file.
+use the raw format if you do so. Or you can download everything, on the main page there is a button to download as a zip file: ![clone or download](cloneOrDownload.PNG "Clone or Download")
+
 
 If you are game install git and clone the whole repo, open a command prompt:
 ```bash
