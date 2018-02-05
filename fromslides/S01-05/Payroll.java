@@ -1,8 +1,10 @@
 import java.util.Scanner;  // Needed for the Scanner class
 
 /**
-   This program demonstrates the Scanner class.
-*/
+ * This program demonstrates the Scanner class.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class Payroll
 {

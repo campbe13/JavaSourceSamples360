@@ -1,5 +1,9 @@
-// This program has variables of several of the integer types.
-
+/**
+ * This program has variables of several of the integer types.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
+ 
 public class IntegerVariables
 {
    public static void main(String[] args)

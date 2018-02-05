@@ -1,4 +1,8 @@
-// in slides lecture 05
+/**
+ * in slides lecture 05
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class Precedence
 {

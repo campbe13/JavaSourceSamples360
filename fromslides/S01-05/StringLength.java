@@ -1,4 +1,8 @@
-// This program demonstrates the String class's length method.
+/**
+ * This program demonstrates the String class's length method.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class StringLength
 {

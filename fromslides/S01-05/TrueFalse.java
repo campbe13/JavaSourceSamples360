@@ -1,4 +1,8 @@
-// A program for demonstrating boolean variables
+/**
+ * A program for demonstrating boolean variables
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class TrueFalse
 {

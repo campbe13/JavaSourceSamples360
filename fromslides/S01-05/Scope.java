@@ -1,4 +1,8 @@
-// This program can't find its variable.
+/**
+ * This program can't find its variable.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class Scope
 {

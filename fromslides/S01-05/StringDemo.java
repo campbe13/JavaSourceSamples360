@@ -1,4 +1,8 @@
-// A simple program demonstrating String objects.
+/**
+ * A simple program demonstrating String objects.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class StringDemo
 {

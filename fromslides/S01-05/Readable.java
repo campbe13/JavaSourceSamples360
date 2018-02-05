@@ -1,6 +1,8 @@
 /** 
-   This example is much more readable than Compact.java.
-*/
+ * This example is much more readable than Compact.java.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class Readable
 {

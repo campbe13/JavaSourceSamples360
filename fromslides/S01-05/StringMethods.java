@@ -1,4 +1,8 @@
-// This program demonstrates a few of the String methods.
+/**
+ * This program demonstrates a few of the String methods.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class StringMethods
 {

@@ -1,4 +1,8 @@
-// This program uses E notation.
+/**
+ * This program uses E notation.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class SunFacts
 {

@@ -1,5 +1,8 @@
-// This program demonstrates the double data type.
-
+/** 
+ * This program demonstrates the double data type.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 public class Sale
 {
    public static void main(String[] args)

@@ -1,5 +1,7 @@
 /**
    This class creates a program that calculates company payroll.
+   @author Sybil N. Gineer
+   @version 1
 */
 
 public class Comment3
@@ -17,4 +19,3 @@ public class Comment3
       // The Remainder of This Program is Omitted.
    }
 }
-

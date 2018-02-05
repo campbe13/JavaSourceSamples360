@@ -1,5 +1,9 @@
-// This program demonstrates the close relationship between
-// characters and integers.
+/**
+ * This program demonstrates the close relationship between
+ * characters and integers.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class Letters2
 {

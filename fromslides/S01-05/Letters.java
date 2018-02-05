@@ -1,4 +1,8 @@
-// This program demonstrates the char data type.
+/**
+ * This program demonstrates the char data type.
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 
 public class Letters
 {
