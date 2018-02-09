@@ -1,5 +1,9 @@
-// This program calculates hourly wages plus overtime.
-
+/**
+ * This program uses calculates pay 
+ * 
+ * @author Sybil N. Gineer
+ * @version 1
+ */
 public class Wages
 {
    public static void main(String[] args)      
