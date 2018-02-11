@@ -1,3 +1,11 @@
+/**
+ * This class illustrates rounding floating point numbers
+ * using Math.round()
+ *
+ * @author P.Campbell
+ * @version today
+ **/
+
 public class Round {
 public static void main (String[] args) {
  final double NUM = 77.5678;

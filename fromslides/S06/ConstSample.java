@@ -9,21 +9,23 @@ public class ConstSample {
         {
         // quebec tax values
         final double GSTQST = 1.14975;
-        
+
         // for use in fahrenheit to kelvin
         final byte FREEZING_PT_WATER_F = 32;
         final float ABS_ZERO_C  = 273.15F;
         final float DIVISOR = 1.8000F;
-        // degree symbol in unicode   
-        final char DEGREE = 176;   
-        
-        // vars for price 
+
+        // degree symbol in unicode
+        final char DEGREE = 176;
+
+        // vars for price
         float price = 10.95F;
+
         // vars for temp conversion
         int fahrenheit = 54;
         float kelvin;
-        
-        kelvin = 
+
+        kelvin =
         (fahrenheit - FREEZING_PT_WATER_F)
          / DIVISOR + ABS_ZERO_C;
 
@@ -31,7 +33,7 @@ public class ConstSample {
                      fahrenheit, kelvin);
         System.out.printf("Formatted:\t%03d%c F is %.2f%c Kelvin\n",
                      fahrenheit, DEGREE, kelvin, DEGREE);
-        
+
         System.out.printf("Unformatted:\tAn item priced $%f costs $%f in Quebec\n",
               price, price*GSTQST);
         System.out.printf("Formatted:\tAn item priced $%,.2f costs $%,.2f in Quebec\n",
@@ -39,4 +41,3 @@ public class ConstSample {
 
     }  // main()
 } // ConstSample
-        
