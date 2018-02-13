@@ -12,12 +12,13 @@ import java.util.Scanner;
  **/
 public class PayCalcBase  {
    public static void main(String[] args) {
-      Scanner keyboard = new Scanner(System.in);
+      Scanner kb = new Scanner(System.in);
       int hours;
       double weeksPay;
       // MODIFY:   calculate overtime (if), use constants, use printf & fmt specifiers 
+      // MODIFY:   cashier or supervisor different pay  kb.next().charAt(0)
       System.out.print("How many hours did you work this week:");
-      hours = keyboard.nextInt();
+      hours = kb.nextInt();
    
       weeksPay = 10.25 * hours;
    
