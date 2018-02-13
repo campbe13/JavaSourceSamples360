@@ -17,24 +17,24 @@ public class PayCalcSolution {
    // variables next first letter always lower case, the rest camel case
    Scanner keyboard = new Scanner(System.in);
    int hours;
-   double regularPay; 
+   double regularPay,overtimePay, totalPay; 
    
    System.out.print("How many hours did you work this week: ");
    hours = keyboard.nextInt();
-   
-   if (hours > REG_HOURS) {
-        regularPay   = PAY_RATE * OVERTIME * (hours - REG_HOURS);
-        regularPay += PAY_RATE * REG_HOURS;
-   } else {
-       regularPay = PAY_RATE * hours;
-   } 
-   
-   // CHALLENGE:   modify to dispaly overtime pay, regular pay and total pay
-   
-   
-    // using println    
-    System.out.println("Hours " + hours + " Pay $" + regularPay);
-    // using printf
-    System.out.printf("Hours %d Pay $%.2f\n", hours, regularPay);
+   if (hours > 0) {
+      if (hours > REG_HOURS) {
+         overtimePay   = PAY_RATE * OVERTIME * (hours - REG_HOURS);
+         regularPay = PAY_RATE * REG_HOURS;
+         totalPay = regularPay + overtimePay;
+         System.out.println("Hours " + hours + " Pay $" + totalPay);
+         // printf instead of println
+         System.out.printf("Hours %d Pay $%.2f Overtime included %.2f\n", hours, totalPay, overtimePay);
+      } else {
+         regularPay = PAY_RATE * hours;
+         System.out.println("Hours " + hours + " Pay $" + regularPay);
+      } 
+   } else { 
+      System.out.println("Invalid input hours: " + hours); 
    }
-}
+} // end main()
+} // end PayCalcSolution class
