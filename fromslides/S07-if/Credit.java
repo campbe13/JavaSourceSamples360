@@ -1,4 +1,3 @@
-package fromslides.S07;
 import java.util.Scanner;
 /**
  * This class illustrates exercises from the slide deck for the course
