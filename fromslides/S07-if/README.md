@@ -1,7 +1,7 @@
-#Logical Operators 
+# Logical Operators 
 
 
-##Logical AND  ( && )
+## Logical AND  ( && )
 
 cond1 && cond2    both must be true for expression value true
 
