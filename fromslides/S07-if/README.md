@@ -14,7 +14,7 @@ if cond1 is true we check cond2
 if cond1 is false   expression value is false  
 ```
 
-##Logical OR  ( || )
+## Logical OR  ( || )
 cond1 || cond2    both must be false for expression value false 
 
 ```
@@ -27,7 +27,7 @@ if cond1 is false
 	if cond2 is false expression value is false
 ```
 	
-##Logical NOT ( ! )  aka bang
+## Logical NOT ( ! )  aka bang
 ```
 boolean cond1 = true;
 boolean cond2 = false;
