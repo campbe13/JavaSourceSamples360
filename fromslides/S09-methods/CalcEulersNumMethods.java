@@ -1,4 +1,3 @@
-//package fromslides.S09;
 import java.util.Scanner;
 /**
  * 
@@ -18,46 +17,67 @@ public class CalcEulersNumMethods
     {
     
     Scanner keyboard = new Scanner(System.in);
-
-    System.out.println("Brought to you by Dawson College");
+	int prec=0;
+    double euler, powr;
+	System.out.println("Brought to you by Dawson College");
     
-    System.out.print( "Enter number of digits precison : " );
-    int prec = keyboard.nextInt();
+    while (prec < 1 || prec > 9) {
+		System.out.print( "Enter number of digits precision : " );
+		prec = keyboard.nextInt();
+	}
     
-    double euler = eNumber();
+    euler = eNumber(prec);
     System.out.println("Raw estimate\t\t\t" + euler);
     
-    double powr = Math.pow(10,prec);
-    System.out.println("Precision " + prec + " digits estimate\t" + Math.round(euler*powr)/powr);
+    powr = Math.pow(10,prec);
+    System.out.println("Precision rounded " + prec + 
+		" digits estimate\t" + Math.round(euler*powr)/powr);
     
     } // main()
-    public static long factorial(int num) 
-    {
-    int product = 1;
-    int counter = 1;
-    while (counter <= num)
-        {
-        product = product*counter;
-        counter++;
-        }
+	/**
+	* Calculate the factorial of x  return x!
+	* non-recursive method
+	*
+	* @param   num
+	* @return  num! (factorial)
+	**/
+    public static long factorial(int num) {
+		int product = 1;
+		int counter = 1;
+    
+		while (counter <= num) {
+			product = product*counter;
+			counter++;
+			}
     return product;
     } // factorial()
     
-    // Euler method:
-    public static double eNumber() 
-    { 
-    double currentEstimate=1.; 
-    double previousEstimate =0.; 
-    double accuracy = 0.0001; 
+    
+	/**
+	* Use Euler's method to calculate the natural log
+	* https://en.wikipedia.org/wiki/Euler_method
+	* non-recursive method
+	*
+	* @param   precision to be used for calc (power of 10)
+	* @return  natural log
+	**/
+    public static double eNumber(int precision) { 
+    double currentEstimate=1.0; 
+    double previousEstimate =0.0; 
+    double accuracy; 
     int counter = 1; 
      
-    while (Math.abs(currentEstimate-previousEstimate) > 0.0001) 
-        { 
+	accuracy = Math.pow(10, -Math.abs(precision));
+	// keep getting closer until the difference between
+	// estimates is < 10^-precision
+    while (Math.abs(currentEstimate-previousEstimate) 
+		>= accuracy)    { 
         previousEstimate = currentEstimate; 
-        currentEstimate = currentEstimate + 1/(double)factorial(counter); 
+        currentEstimate = 
+			currentEstimate + 1/(double)factorial(counter); 
         counter++; 
         } 
      
     return currentEstimate; 
     } // eNumber()
-} // WhileFloat
+} // CalcEulersNumMethods class

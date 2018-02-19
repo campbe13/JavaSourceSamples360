@@ -1,29 +1,36 @@
-//package fromslides.S08;
 import java.util.Scanner;
-
-public class CalcEulersNum
-{
-    public static void main(String[] args)
-    {
+/**
+*  Calculate Euler's Number 
+*  ask the user for the number of digits of precision.
+*
+*  this solution does not use methods.
+* 
+*  @author PMC
+*  @version 2017-02-14
+*/
+public class CalcEulersNum {
+    public static void main(String[] args) {
     
-    Scanner keyboard = new Scanner(System.in);
-
-    System.out.println("Brought to you by Dawson College");
-    
-    System.out.print( "Enter number of digits precison : " );
-    int prec = keyboard.nextInt();
-    
-    double currentEstimate=1.; 
+    Scanner kb = new Scanner(System.in);
+	double currentEstimate=1.; 
     double previousEstimate =0.; 
-    double accuracy = 0.0001; 
+    double accuracy; 
     double euler;
-    int counter = 1; 
+    int prec = 0,counter = 1; 
     
+	System.out.println("Brought to you by Dawson College\nCalculate Euler's number");
+    
+	// data validation, must be between 1-15 inclusive
+	while (prec < 1 || prec > 9) {
+		System.out.print( "Enter number of digits precision 1-9: " );
+        prec = kb.nextInt();
+    }
+	// accuracy will be used to determine if the 
+	// number of decimal places in the answer is sufficient
     accuracy = Math.pow(10, -prec);
     System.out.println("Accuracy by "+accuracy);
     
-    while (Math.abs(currentEstimate-previousEstimate) > accuracy) 
-        { 
+    while (Math.abs(currentEstimate-previousEstimate) >= accuracy) { 
         previousEstimate = currentEstimate; 
         // calculate factorial to counter
         int facProduct = 1;
