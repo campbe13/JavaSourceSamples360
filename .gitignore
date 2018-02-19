@@ -3,7 +3,7 @@ tests/
 studentcode/
 *.class
 testing/
-labs/lab5/
+labs/2017/
 assessments/
 *.log
 *~
