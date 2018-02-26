@@ -1,7 +1,8 @@
-//package fromslides.S09;
 import java.util.Scanner;
 /**
  * This class illustrates exercises from the slide deck for the course
+ * Java method calls: parameters are passed by value
+ * 
  * 360-420-DW Intro to Java
  * @author PMCampbell
  * @version today
