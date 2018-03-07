@@ -1,5 +1,3 @@
-
-import java.util.Scanner;
 /**
  * 
  * Working code skeleton for exercises to be done 
@@ -14,31 +12,29 @@ import java.util.Scanner;
 
 public class ForExercise {
     public static void main(String[] args)  {
-        // variables go here & delete or replace  this comment
-        Scanner keyboard = new Scanner(System.in);
-        
         // logic goes here & delete or replace this comment
         System.out.println("Brought to you by Dawson College");
-    
-    
+        // TODO modify the method to show the minutes (nested for)
+        // TODO modify the method to have 2 params, hours to start & end 
+
+        
+        showHours();
+        // TODO advanced add seconds   (another level of nesting)
+        // I will not demo this
 	} // main()
 	
    /**
-	* This is a method skeleton 
-	* use it to create your own methods
-	* modify this text & the @param/ @return
-	* modify the method name, parameters
-	* return type and content as needed.
-	*
+	* show all hours in a 24 hour clock. 
+	* 
 	* 360-420-DW Intro to Java
-	* @param   tbd
-	* @return  tbd
+	* @param   none
+	* @return  void
 	**/
-	public static void changeThisName() {
-	 // TODO: put your content here
-	 // TODO: add parameters as needed
-	 // TODO: change return type as needed
-	} // changeThisName()
+	public static void showHours() {
+	  for (int hours=0;hours <=24;hours++)  {
+	      System.out.printf("Hour:%02d\n",hours);
+	  }
+	 } // showHours()
     
     
 } // ForExercises
