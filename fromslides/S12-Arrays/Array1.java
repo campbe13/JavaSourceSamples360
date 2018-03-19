@@ -1,17 +1,15 @@
-//package fromslides.S12;
 import java.util.Scanner;
 /**
  * This class illustrates exercises from the slide deck for the course
+ * 
+ * Arrays
+ * 
  * 360-420-DW Intro to Java
  * @author PMCampbell
  * @version today
  **/
 public class Array1 {
     public static void main(String[] args) {
-            // declare int variables (memory reserved for each)
-            int num1, num2, num3;
-            int sum, mult;
-            // declare int array variable (memory reserved for the address of the array)
             int num[];
             // instantiate the array (reserve heap memory for it)
             num = new int[3];

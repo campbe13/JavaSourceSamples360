@@ -1,5 +1,15 @@
-package fromslides.S13;
 import java.util.Scanner;
+/**
+ * This class illustrates exercises from the slide deck for the course
+ * 
+ * Arrays
+ * Parallel arrays
+ * Declare, instantiate, initialize in one
+ * 
+ * 360-420-DW Intro to Java
+ * @author PMCampbell
+ * @version today
+ **/
 public class Array2 {
 	public static void main(String[] args) {
 			// declare and instantiate 

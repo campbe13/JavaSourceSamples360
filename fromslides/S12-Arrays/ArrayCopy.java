@@ -1,4 +1,14 @@
-package fromslides.S13;
+/**
+ * This class illustrates exercises from the slide deck for the course
+ * 
+ * Arrays
+ * Parallel arrays
+ * Copy Arrays  (Shallow & Deep)
+ * 
+ * 360-420-DW Intro to Java
+ * @author PMCampbell
+ * @version today
+ **/
 import java.util.Scanner;
 public class ArrayCopy {
 	public static void main(String[] args) {
