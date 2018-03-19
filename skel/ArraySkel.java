@@ -18,7 +18,7 @@ public class Array1 {
             
             // give a sum of the array contents
             
-            // 
+            // use it in an method?: increase by 2?
             
         } //main()
 } //
