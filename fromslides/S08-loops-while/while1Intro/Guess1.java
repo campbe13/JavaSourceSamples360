@@ -1,16 +1,16 @@
-//package fromslides.S08;
 import java.util.Scanner;
 
 /**
  * This class illustrates exercises from the slide deck for the course
+ * it uses a while loop with a sentinel
+ * user guesses a number
+ *
  * 360-420-DW Intro to Java
  * @author PMCampbell
  * @version today
  **/
-public class Guess1
-{
-   public static void main(String[] args)
-   {
+public class Guess1 {
+   public static void main(String[] args) {
    final int SECRET_NUMBER = 535;
    int guess;
    Scanner kb = new Scanner(System.in);
