@@ -8,7 +8,6 @@ assessments/
 *.log
 *~
 *.swp
-fromslides/S14*
 fromslides/S15*
 fromslides/S16*
 fromslides/S17*
