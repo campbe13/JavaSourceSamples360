@@ -22,9 +22,23 @@ public class RealRoots {
     b = kb.nextDouble();
     System.out.print("c: ");
     c = kb.nextDouble();
-
-    root1 = ( -b + Math.sqrt(b*b - 4*a*c) ) / (2*a);
-    root2 = ( -b - Math.sqrt(b*b - 4*a*c) ) / (2*a);
+	if ((b*b - 4*a*c) > 0) {
+		if (a > 0) {
+			root1 = 
+			( -b + Math.sqrt(b*b - 4*a*c) ) 
+				/ (2*a);
+			root2 = ( -b - Math.sqrt(b*b - 4*a*c) )
+				/ (2*a);
+		} else {
+			// a is invalid, substitute 1
+			a=1;
+			root1 = ( -b + Math.sqrt(b*b - 4*a*c) ) / (2*a);
+			root2 = ( -b - Math.sqrt(b*b - 4*a*c) ) / (2*a);
+		}
+	} else {
+		System.out.print("invalid terms");
+		System.exit(1);
+	}
 
     System.out.println("Equation: "+a+ "x^2 +" + b + "x +" + c +" = 0");
     System.out.println("Root 1: "+ root1  + "\nRoot 2: "+ root2);
