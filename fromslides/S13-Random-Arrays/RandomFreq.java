@@ -33,7 +33,7 @@ public class RandomFreq
 	System.out.println("test 2nd element " + rand[2]);
 	*/
 	// display array forwards 0 to (1000 -1)
-	for (int index=(rand.length-1); index >= 0; index--)  {
+	for (int index=0; index < rand.length; index++)  {
 		System.out.println("element "+index
 		+" is "+rand[index]);
 	}

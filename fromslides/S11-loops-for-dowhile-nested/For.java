@@ -1,4 +1,4 @@
-package fromslides.S11;
+//package fromslides.S11;
 import java.util.Scanner;
 public class For {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class For {
 			// table of square of numbers 1 to 10
 			System.out.println("Number   Number Squared");
 			System.out.println("-----------------------");
-			for (int i = 1; i <= 10; i++) {
+			for (int i = 10; i <= 20; i++) {
 				System.out.println(i + "\t\t" + Math.pow(i, 2));
 			}
 			//equivalent while loop
