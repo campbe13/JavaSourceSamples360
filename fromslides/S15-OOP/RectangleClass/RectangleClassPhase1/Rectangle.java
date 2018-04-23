@@ -14,8 +14,7 @@ public class Rectangle
       @param len The value to store in length.
    */
 
-   public void setLength(double len)
-   {
+   public void setLength(double len)    {
       length = len;
    }
 }
