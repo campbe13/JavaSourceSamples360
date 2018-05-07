@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * implement multTable() method
- * from the labs-misc Part 1
+ * from the labs-misc Part 1-6
  * 
  * 360-420-DW Intro to Java
  * @author PMCampbell
